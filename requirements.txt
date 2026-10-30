@@ -1,0 +1,17 @@
+jupyter>=1.1
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.5
+nltk>=3.9
+gensim>=4.3
+tqdm>=4.66
+
+# TensorFlow notebooks (use Keras 2 via tf-keras; see README)
+tensorflow>=2.18,<2.22
+tf-keras>=2.18,<2.22
+tensorflow-hub>=0.16
+tensorflow-text>=2.18,<2.22
+
+# Hugging Face (4.57 is the last series with TensorFlow support)
+transformers>=4.57,<5
+torch>=2.5
